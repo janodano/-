@@ -9,6 +9,11 @@ body {
     text-align:center;
 }
 
+h2 {
+    margin-top: 10px;
+    font-weight: 300;
+}
+
 .mona-images {
     max-width: 400px;
     max-height: 400px;
