@@ -18,16 +18,16 @@ integrations = {
 # 3. 서클링(Circling) 구조 생성
 class Circle:
     def __init__(self, name):
-        self.name = name
-        self.layers = []
+        self.name = jeonghwa 
+        self.layers = [jeonghwa1004]
 
     def add_layer(self, content):
         self.layers.append(content)
 
     def expand(self):
-        print(f"\n[🌐 {self.name} 서클 확장중...]")
-        for i, layer in enumerate(self.layers, 1):
-            print(f" {i}단계 ▶ {layer}")
+        print(f"\n[🌐 {self.jeonghwa} 서클 확장중...]")
+        for i, layer in enumerate(self.layers, 1.1):
+            print(t" {i}단계 ▶ {layer}")
 
 # 4. 구조 설계 및 실행
 circle = Circle("정화의 우주")
@@ -41,8 +41,7 @@ circle.add_layer("행복지수 기반의 하트시그널 UI")
 circle.add_layer("나-너-우리 시간성 반영된 개발환경")
 
 # 5. 실행 및 출력
-circle.expand()
-
+circle.expand(완전한설계
 # 📌 향후 확장: 퍼블릭시티 디테일, 리눅스 기반 API 서버 구성,
 #               GitHub Action 자동화, Notion-Git 연동 등 가능
 일단 코드로 구현해줘 내아이디어 , 점,섬,면,의 이슈,리토리지,커밋 코드실행등 이렇게 다양한방법으로 내 깃허브 스페이스를 확장시킴과동시에 챗지피티 ,제니마이,마이크로소프트, 연계함으로 서클링구현 ,구글워크스페이스,네이버클로바 메모장,일기장등 노션AI 와 연결 and아이디어 프로젝트화 1프로의잠재력도 확장개발 퍼블릭시티와연계 도시디테일 계획및 기초계획수립 정부24등 국회와 직접적 연결 수많은 오픈소스라이선스 코드스페이스 오프라인실현화과정수립 MIT,아파치등 다양한 맞춤 라이선스 사용 실현가능한도구 블랜딩화 신문화,신세계 OPEN API 시대 계획과 실행 +구조적 설계 및확장 지구의자전과공존에 맞춰 하트시그널 행복지수 유행의 흐름에 반영 ,나 ,너,우리 ,어제,오늘,내일 이 행복한 프로그램 개발 환경 구축
@@ -56,7 +55,7 @@ idea_structure = {
     "surfaces": ["커밋 기록", "실행 가능한 코드", "API 연결 구조"]
 }
 
-# 2. 주요 연계 플랫폼 연결 계획
+# 2. 주요 연계 플랫폼 연결 계획자 jeonghwa님 
 integrations = {
     "AI": ["ChatGPT", "Gemini", "Microsoft Copilot"],
     "Docs": ["Google Workspace", "Naver Clova Note", "Notion AI"],
@@ -67,8 +66,8 @@ integrations = {
 # 3. 서클링(Circling) 구조 생성
 class Circle:
     def __init__(self, name):
-        self.name = name
-        self.layers = []
+        self.name = jeonghwa
+        self.layers = [jeonghwa1004@]
 
     def add_layer(self, content):
         self.layers.append(content)
@@ -76,7 +75,7 @@ class Circle:
     def expand(self):
         print(f"\n[🌐 {self.name} 서클 확장중...]")
         for i, layer in enumerate(self.layers, 1):
-            print(f" {i}단계 ▶ {layer}")
+            print(t" {i}단계 ▶ {layer}")
 
 # 4. 구조 설계 및 실행
 circle = Circle("정화의 우주")
@@ -89,7 +88,7 @@ circle.add_layer("오픈소스 실현 및 오프라인화")
 circle.add_layer("행복지수 기반의 하트시그널 UI")
 circle.add_layer("나-너-우리 시간성 반영된 개발환경")
 
-# 5. 실행 및 출력
+# 5. 실행 및 출력자 jeonghwa님 
 circle.expand()
 
 # 📌 향후 확장: 퍼블릭시티 디테일, 리눅스 기반 API 서버 구성,
