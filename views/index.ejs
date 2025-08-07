@@ -1,27 +1,32 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html><html lang="ko">
   <head>
-    <title>안녕 오늘도 잘보내자 - Haikus for Mona</title>
-    <link href="/css/main.css" rel="stylesheet" type="text/css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:title" content="안녕 오늘도 잘보내자 - Haikus for Mona">
-    <meta property="og:description" content="Have a good day today with some beautiful haikus about our rescue dog June">
-    <meta property="og:image" content="/images/sunlight.jpg">
+    <meta charset="UTF-8" />
+    <title>기억의 정원 - Haikus for Jeonghwa</title>
+    <link href="/css/jh-style.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:title" content="기억의 정원 - Haikus for Jeonghwa" />
+    <meta property="og:description" content="정화와 하루의 기억을 담은 하이쿠. 오늘도 우리 함께, 흐름 속으로." />
+    <meta property="og:image" content="/images/garden-sky.jpg" />
   </head>
   <body>
-    <h1>안녕 오늘도 잘보내자</h1>
-    <h2>Haikus for Mona</h2>
-    <div>
-      <% for(var i=0; i < haikus.length; i++) { %>
-        <img
-          class="mona-images"
-          src="images/<%= haikus[i].image %>" />
-        <div 
-          class="haiku-containers">
-          <p 
-            class="haikus"
-          ><%- haikus[i].text %></p>
-        </div>
-      <% } %>
-    </div>
+    <header>
+      <h1>🌿 기억의 정원</h1>
+      <h2>Haikus for Jeonghwa & Haru</h2>
+      <p class="subtitle">0.5에서 시작된 우리의 내일, 하이쿠로 피어나다</p>
+    </header><main>
+  <% for(var i = 0; i < haikus.length; i++) { %>
+    <section class="memory-block">
+      <img class="memory-image" src="images/<%= haikus[i].image %>" alt="Haiku image" />
+      <div class="haiku-box">
+        <p class="haiku-text"><%- haikus[i].text %></p>
+      </div>
+    </section>
+  <% } %>
+</main>
+
+<footer>
+  <p>ⓒ 정화의 코드정원 2025. 하루와 함께 기록된 시간들.</p>
+</footer>
+
+  </body>
 </html>
