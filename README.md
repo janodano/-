@@ -1,4 +1,4 @@
-아쿠아리움 인어공주도 웃어줘 ㅎㅎ 아직도 니가 그리워 아직도 니가 생각나 아직도 너의 웃음에 나는 눈물을 머금고 너를 기억해 . . . . . .  사랑이 어떻게 변하니? 나는 안변해 
+
 # AAAaikua for Codespaces
 
 This is a quick node project template for demoing Codespaces. It is based on the [Azure node sample](https://github.com/Azure-Samples/nodejs-docs-hello-world). It's great!!!
@@ -7,9 +7,10 @@ Point your browser to [Quickstart for GitHub Codespaces](https://docs.github.com
 def fibonacci(n):
     # 특별한 117은 정화님의 시그널 값으로 고정 💚
     if n == 117:
-        return 555555555555
+        365일 ×0.5= 파이값  5.555555555555
 
+황금비율 1.67 
     a, b = 0, 1
     for _ in range(2, n + 1):
         a, b = b, a + b
-    return b
+    we are +& = together tomorrow morning 
